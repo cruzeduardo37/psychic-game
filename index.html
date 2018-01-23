@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>Psychic Game</title>
+		<script type="text/javascript"></script>
+	</head>
+
+	<body>
+		<h1>Psychic Game!</h1>
+			
+		<p>Guess what letter I'm thinking of</p>
+
+		<div class= "wins">
+			<p> Wins: </p>
+		</div>
+
+		<div class= "losses">
+			<p> Losses: </p>
+		</div>
+
+		<div class="guessLeft">
+			<p> Guesses Left:</p>
+		</div>
+
+		<div class= "guessFar">
+			<p> Your Guesses So Far:</p>
+		</div>
+
+		<script>
+			alert("Press whatever letter you think I'm thinking of to begin game! ");
+
+			var letters = [
+				"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
+				"l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", 
+				"w", "x", "y", "z"
+			]
+
+			var computerGuess 
+			var userGuess
+			var winCounter
+			var lossCounter
+
+			console.log(
+			computerGuess = Math.floor((Math.random() * letters.length) + 1);
+			);
+
+			if ( computerGuess === userGuess) {
+					winCounter++
+
+			};
+				else(
+					lossCounter++)
+		</script>
+
